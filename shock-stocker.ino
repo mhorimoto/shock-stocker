@@ -1,6 +1,7 @@
 void setup(void) {
   Serial.begin(115200);
-  Serial.println("SHOCK STOCKER VERSION 0.10");
+  Serial.println("SHOCK STOCKER VERSION 0.12");
+  Serial.println("5 SECONDS WAITING");
   pinMode(A0,OUTPUT);    // X
   pinMode(A1,OUTPUT);    // Y
   pinMode(A2,OUTPUT);    // Z
